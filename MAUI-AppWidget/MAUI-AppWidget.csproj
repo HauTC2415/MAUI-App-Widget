@@ -24,7 +24,7 @@
 		<ApplicationTitle>MAUI-AppWidget</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.companyname.mauiappwidget</ApplicationId>
+		<ApplicationId>com.hautc.mauiappwidget</ApplicationId>
 
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
@@ -69,10 +69,16 @@
 	  <None Remove="Platforms\Android\Resources\xml\" />
 	  <None Remove="Platforms\Android\Resources\drawable\" />
 	  <None Remove="Platforms\Android\Resources\layout\" />
+	  <None Remove="Platforms\Android\Contants\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Platforms\Android\Resources\xml\" />
 	  <Folder Include="Platforms\Android\Resources\drawable\" />
 	  <Folder Include="Platforms\Android\Resources\layout\" />
+	  <Folder Include="Platforms\Android\Contants\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <BundleResource Include="Platforms\Android\Resources\drawable\announcement.png" />
+	  <BundleResource Include="Platforms\Android\Resources\drawable\previewimage.png" />
 	</ItemGroup>
 </Project>

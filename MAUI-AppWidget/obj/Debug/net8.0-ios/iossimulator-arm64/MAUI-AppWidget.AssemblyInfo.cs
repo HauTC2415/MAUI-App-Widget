@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MAUI-AppWidget")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a5ee9ce4d6f30a8f08666e50624843dc51fa6ab1")]
 [assembly: System.Reflection.AssemblyProductAttribute("MAUI-AppWidget")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MAUI-AppWidget")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
